@@ -1,0 +1,4 @@
+type = "csharp"
+main = "server/bin/net8.0/SimpleFishing.dll"
+client-main = 'client/dist/client.js'
+client-files = "[client/dist/client.js]"

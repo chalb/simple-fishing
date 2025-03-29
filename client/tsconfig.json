@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "lib": [ "es5", "es6", "esnext" ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "esnext",
+
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "preserveConstEnums": true,
+
+    "noImplicitAny": true,
+    "sourceMap": false,
+
+    // If you have subfolder where all your ts files are located you can add the following line to specify the root folder 
+    "rootDir": "./",
+    // Here you can set the output folder where the javascript files will be generated
+    "outDir": "./dist/",
+
+    // Here you specify the TypeScript (IDE) where the alt:V types are located
+    "typeRoots": ["./node_modules/@altv"]
+  },
+  "compileOnSave": true,
+  "include": [
+    "client.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
